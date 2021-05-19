@@ -100,6 +100,7 @@ def solve_linear_eq(A, B, v0, v6, h = 0.001, r = 6):
         res.append(v1)
         v0=v1
     return res
+
     
     
 if __name__ == "__main__":
